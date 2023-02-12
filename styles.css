@@ -1,0 +1,86 @@
+body {
+    background-color: #F0F3FA;
+
+}
+
+.nametag {
+    font-size: 7vw;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.intro {
+    margin-top: 260px;
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 1px;
+    color: black;
+}
+
+.subheading {
+    line-height: 5px;
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-size: 1.7vw
+}
+
+.links {
+    font-family: 'Mukta Malar', sans-serif;
+    text-align: center;
+    font-size: 1vw;
+    animation: fadeInAnimation ease 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: #d48d6e;
+    word-spacing: 3vw
+}
+
+img {
+  display: block;
+  max-width: 1500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #ab658b;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.footer {
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 370px;
+    text-align: center;
+}
